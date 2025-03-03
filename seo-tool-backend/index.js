@@ -10,6 +10,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "https://website-analyzer-tool.vercel.app",
+      "https://website-analyzer-tool-frontend.vercel.app/"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
